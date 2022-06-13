@@ -1,0 +1,14 @@
+
+Cài đặt typescript 
+  - npm i -g typescript
+
+Kiểm tra đã cài được hay chưa
+  - tsv --v 
+
+Khởi tạo
+  tsc --init => sẽ tạo ra 1 file tsconfig.json
+
+Trong file tsconfig
+  - target : es2016 => set javasript version sẽ build về phiên bản (ở đây là build về phiên bản es6 )
+  - module : commonjs => dạng nodeJS , ở đây mình sẽ chuyển về ES6 để import export 
+  - outDir : chỉ định trỏ vào file khi build
